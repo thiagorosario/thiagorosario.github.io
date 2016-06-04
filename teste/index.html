@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Document</title>
+  <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300,700' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="normalize.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+  <script type="text/javascript">
+    function toggleDiv(divId) {
+      $("#" + divId).toggle(150);
+    }
+  </script>
+</head>
+
+<body>
+  <div class="container">
+    <h1><img src="img/logo.png" alt=""></h1>
+    <h2>Conheça a beleza da cidade maravilhosa Rio de Janeiro, embarque num passeio prazeroso e aproveite os pontos turísticos sugeridos.</h2>
+    <div class="pontos">
+      <ul>
+        <li>Bondinho do Pão de Açúcar</li>
+        <li>Corcovado</li>
+        <li>Maracanã</li>
+        <li>Vista Chinesa</li>
+        <li>Jardim Botânico</li>
+        <li>Lapa</li>
+        <li class="li"><a href="javascript:toggleDiv('myContent');">Praias >></a></li>
+        <div id="myContent" class="hide">
+          Flamengo, Botafogo, Urca, Leme, Copacabana, Ipamena, Leblon, Barra e Grumari
+        </div>
+        <li>Santa Teresa</li>
+        <li>Sambódromo</li>
+        <li class="li"><a href="javascript:toggleDiv('myContent2');">Região dos Lagos >></a></li>
+        <div id="myContent2" class="hide">Cabo Frio, Arraial do Cabo e Búzios</div>
+        <li class="li"><a href="javascript:toggleDiv('myContent3');">Niterói >></a></li>
+        <div id="myContent3" class="hide">Praias e pontos turísticos da cidade</div>
+        <li class="li"><a href="javascript:toggleDiv('myContent4');">Região Serrana >></a></li>
+        <div id="myContent4" class="hide">Praias e pontos turísticos da cidade</div>
+        <li>Restaurantes</li>
+        <li>Pedra da Gávea</li>
+        <li>Palácio do Catete</li>
+        <li>Quinta da Boa Vista</li>
+        <li>Centro Rio de Janeiro</li>
+        <li>Catedral</li>
+        <li>Museu Imperial</li>
+      </ul>
+
+      <div class="footer-arte">
+        <img src="img/footer.png" alt="">
+      </div>
+
+      <div class="footer">
+        <h3>Contato</h3>
+        <p><strong>João Paulo Caldas:</strong>
+          <br>(21) 97953-1325 | (21) 96757-4442</p>
+        <p><strong>E-mail:</strong> joaopaulo@jptransporterj.com.br jpcaldas@gmail.com</p>
+      </div>
+
+    </div>
+</body>
+
+</html>

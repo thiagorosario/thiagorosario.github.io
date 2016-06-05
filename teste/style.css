@@ -22,6 +22,7 @@ body {
   font-size: .8em;
 }
 h1 {
+  text-align: center;
   padding: .3em;
 }
 img {
@@ -92,14 +93,22 @@ a{
 }
 
 @media screen and (min-width: 1023px){
+
+  h1{
+    text-align: center;
+    padding: 0;
+  }
   h2{
-    font-size: 1.5em;
+    font-size: 1em;
   }
   .um{
-    padding-left: 1.5em;
+    padding-left: 8em;
+  }
+  .dois{
+    padding-right: 8em;
   }
   .pontos{
-    font-size: 1.5em;
+    font-size: .8em;
   }
 }
 /* COLOR 

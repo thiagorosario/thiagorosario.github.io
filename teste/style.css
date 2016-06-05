@@ -95,8 +95,8 @@ a{
 @media screen and (min-width: 1023px){
 
   h1{
-    text-align: center;
     padding: 0;
+    font-size: 0;
   }
   h2{
     font-size: 1em;
@@ -115,5 +115,6 @@ a{
 #025887
 */
 
-
-/*jquery*/
+.fontzero{
+  font-size: 0;
+}
